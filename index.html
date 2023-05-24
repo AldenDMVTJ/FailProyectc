@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/style.css">
     <title>Proyecto Final BAM</title>
 </head>
@@ -32,37 +33,85 @@
 
 
     <section id="second">
-        <div class="contenedor">
-            <h3>Artistas del ahora</h3>
-            <p>Los siguientes artistas son los mas escuchados segun segun el servicio de música, Spotify.  </p>
-        </div>
-        <div class="contenedor2">
-            <div class="carta">
-                <a href=""><img src="./img/spotify/thwknd.jpg" alt="the weeknd" ></a>
-                <h3>1. The weeknd</h3>
+        <div id="conteItemsCarrusel">
+            <div class="itemCarrusel" id="itemCarrusel-1">
+                <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
+                    <!-- <a href=""><img src="./img/spotify/thwknd.jpg" alt="the weeknd" ></a> -->
+                    <h3>1. The weeknd</h3>
+                </div>     
+                <div class="flechasCarrusel">
+                    <a href="#itemCarrusel-5">
+                        <i class="bx bxs-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrusel-2">
+                        <i class="bx bxs-chevron-right"></i>
+                    </a>
+                </div>
             </div>
-            <div class="carta">
-                <a href=""><img src="./img/spotify/sheeran.jpg" alt="Ed Sheeran"></a>
-                <h3>2. Ed Sheeran</h3>
+            <div class="itemCarrusel" id="itemCarrusel-2">
+                <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
+                    <a href=""><img src="./img/spotify/sheeran.jpg" alt="Ed Sheeran"></a>
+                    <!-- <h3>2. Ed Sheeran</h3> -->
+                </div>     
+                <div class="flechasCarrusel">
+                    <a href="#itemCarrusel-1">
+                        <i class="bx bx-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrusel-3">
+                        <i class="bx bxs-chevron-right"></i>
+                    </a>
+                </div>
             </div>
-            <div class="carta">
-                <a href=""><img src="./img/spotify/swiftt.jpg" alt="Taylor Swift"></a>
-                <h3>3. Taylor Swift</h3>
+            <div class="itemCarrusel" id="itemCarrusel-3">
+                <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
+                    <a href=""><img src="./img/spotify/swiftt.jpg" alt="Taylor Swift"></a>
+                    <!-- <h3>3. Taylor Swift</h3> -->
+                </div>     
+                <div class="flechasCarrusel">
+                    <a href="#itemCarrusel-2">
+                        <i class="bx bxs-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrusel-4">
+                        <i class="bx bxs-chevron-right"></i>
+                    </a>
+                </div>
             </div>
-            <div class="carta">
-                <a href=""><img src="./img/spotify/cyrus.jpg" alt="Miley Cyrus"></a>
-                <h3>4. Miley Cyrus</h3>
+            <div class="itemCarrusel" id="itemCarrusel-4">
+                <div class="tarjetaCarrusel" id="tarjetaCarrusel-4">
+                    <a href=""><img src="./img/spotify/cyrus.jpg" alt="Miley Cyrus"></a>
+                    <h3>4. Miley Cyrus</h3>
+                </div>     
+                <div class="flechasCarrusel">
+                    <a href="#itemCarrusel-3">
+                        <i class="bx bxs-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrusel-5">
+                        <i class="bx bxs-chevron-right"></i>
+                    </a>
+                </div>
             </div>
-            <div class="carta">
-                <a href=""><img src="./img/spotify/rihanna.jpeg" alt="Rihanna"></a>
-                <h3>5. Rihanna</h3>
+            <div class="itemCarrusel" id="itemCarrusel-5">
+                <div class="tarjetaCarrusel" id="tarjetaCarrusel-5">
+                    <a href=""><img src="./img/spotify/rihanna.jpeg" alt="Rihanna"></a>
+                    <h3>5. Rihanna</h3>
+                </div>     
+                <div class="flechasCarrusel">
+                    <a href="#itemCarrusel-4">
+                        <i class="bx bxs-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrusel-1">
+                        <i class="bx bxs-chevron-right"></i>
+                    </a>
+                </div>
             </div>
-            <div class="carta">
-                <a href=""><img src="./img/spotify/bieber.jpg" alt="Justin Bieber"></a>
-                <h3>6. Justin Bieber</h3>
-            </div>
+                
+
+
+
+
         </div>
     </section>
+
 
 
 
