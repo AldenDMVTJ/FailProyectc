@@ -89,7 +89,6 @@ header nav a:hover{
 /* ____________________________________________________________________________________ */
 
 #conteItemsCarrusel{
-    border: 5px solid black;
     height: 200px;
     overflow: hidden;
 }
@@ -97,8 +96,8 @@ header nav a:hover{
 
 
 .itemCarrusel{
-    border: 1px solid black;
     height: 200px;
+    position: relative;
 }
 
 .tarjetaCarrusel{
@@ -106,8 +105,7 @@ header nav a:hover{
     background-color: aqua;
 }
 
-.flechaCarrusel{
-    background-color: aquamarine;
+.flechasCarrusel{
     position: absolute;
     top: 0;
     height: 100%;
@@ -118,13 +116,25 @@ header nav a:hover{
     padding: 20px;
 }
 
+#tarjetaCarrusel-1{background-color: rgb(39, 228, 228);}
+#tarjetaCarrusel-2{background-color: rgb(25, 51, 51);}
+#tarjetaCarrusel-3{background-color: rgb(50, 143, 38);}
+#tarjetaCarrusel-4{background-color: rgb(17, 15, 153);}
+#tarjetaCarrusel-5{background-color: rgb(83, 52, 168);}
 
 a{
     text-decoration: none;
 }
 
+i{
+    color: white;
+}
 
-
+#contePuntos{
+    background-color: rgb(185,185,185);
+    display: flex;
+    justify-content: space-between;
+}
 
 
 /* ________________________________________________________________________________________ */
@@ -149,11 +159,11 @@ footer .container{
 
 /* ___________________________________________________________________ */
 
-
+/* 
 @media (min-width: 720px){
 
     header{
-        /* position: fixed; */
+        /* position: fixed; /
         width: 100%;
     }
 
@@ -167,4 +177,4 @@ footer .container{
         padding-bottom: 0;
         padding-right: 20px;
     }
-}
+} */
