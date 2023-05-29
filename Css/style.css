@@ -37,12 +37,28 @@ button:hover{
     background-color: rgb(101, 33, 165);
 }
 
-.contenedor{
-    max-width: 1400px;
-    margin: auto;
+.container{
+    width: 85%;
+    max-width: 1000px;
+    margin: 0px auto;
 }
 
-
+#first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 45vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    , url("../img/banner/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;}
 /* ______________________________________________________________________________________________ */
 
 
@@ -59,7 +75,7 @@ header .logo{
     font-size: 1.6em;
 }
 
-header .contenedor{
+header .container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,14 +105,14 @@ header nav a:hover{
 /* ____________________________________________________________________________________ */
 
 #conteItemsCarrusel{
-    height: 200px;
+    height: 400px;
     overflow: hidden;
 }
 
 
 
 .itemCarrusel{
-    height: 200px;
+    height: 400px;
     position: relative;
 }
 
@@ -134,10 +150,101 @@ i{
     background-color: rgb(185,185,185);
     display: flex;
     justify-content: space-between;
+    margin: 0px 10px;
 }
 
 
 /* ________________________________________________________________________________________ */
+
+#second .musicGenres{
+    display: flex;
+    justify-content: center;
+}
+
+#second{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+
+#second .container{
+ padding: 150px 12px;
+}
+
+#second h2{
+    margin-top: 0;
+    font-size: 2.8em;
+}
+
+#second p{
+    display: block;
+    margin-bottom: 30px;
+}
+
+#second h3{
+    margin-top: 0;
+}
+
+
+
+#second .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
+    width: 1000px ;
+    height: 300px;
+
+
+
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    , url("../img/genres/cumbia.jpg");
+    
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    , url("../img/genres/pop.jpg");
+}
+
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    , url("../images/fondo-calle.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* _____________________________________________________________________________________________ */
 footer{
     background-color: rgb(230,230,230);
 }
@@ -157,24 +264,3 @@ footer .container{
 
 
 
-/* ___________________________________________________________________ */
-
-/* 
-@media (min-width: 720px){
-
-    header{
-        /* position: fixed; /
-        width: 100%;
-    }
-
-    header .contenedor{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    header nav{
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 20px;
-    }
-} */
