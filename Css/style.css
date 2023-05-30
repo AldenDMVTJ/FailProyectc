@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
 *{
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
  }
  
  html{
@@ -20,6 +26,7 @@
  p{ font-size: 1.25em;}
  ul{ list-style: none;}
  li{ font-size: 1.25em;}
+ a{ text-decoration: none;}
 
  button{
     font-size: 1.5em;
@@ -43,6 +50,69 @@ button:hover{
     margin: 0px auto;
 }
 
+
+
+/* ______________________________________________________________________________________________ */
+
+
+.header {
+    background-color: rgb(0, 0, 0);
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+} 
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 0;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+    letter-spacing: 2px;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    transition: all 1s linear;
+}
+
+
+.navigation ul li a:hover{
+    color: rgb(121, 74, 165);
+}
+
+
+
+.logo-nav.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* ____________________________________________________________________________________ */
+
 #first {
     display: flex;
     align-items: center;
@@ -52,150 +122,65 @@ button:hover{
     height: 45vh;
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0, 0, 0, 0.3),
+        rgba(231, 55, 55, 0.3)
     )
     , url("../img/banner/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;}
-/* ______________________________________________________________________________________________ */
-
-
-header {
-    background-color: rgb(0, 0, 0);
-
-} 
-
-header .logo{
-    margin: 0;
-    padding: 20px 30px;
-    font-weight: bold;
-    color: blueviolet;
-    font-size: 1.6em;
+    background-position: center center;
+    
 }
 
-header .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-header nav{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 25px;
-}
-
-
-header nav a{
-    padding: 5px 12px;
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-}
-
-header nav a:hover{
-    color: rgb(121, 74, 165);
-}
-
-
-
-/* ____________________________________________________________________________________ */
-
-#conteItemsCarrusel{
-    height: 400px;
-    overflow: hidden;
-}
-
-
-
-.itemCarrusel{
-    height: 400px;
-    position: relative;
-}
-
-.tarjetaCarrusel{
-    height: 100%;
-    background-color: aqua;
-}
-
-.flechasCarrusel{
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-#tarjetaCarrusel-1{background-color: rgb(39, 228, 228);}
-#tarjetaCarrusel-2{background-color: rgb(25, 51, 51);}
-#tarjetaCarrusel-3{background-color: rgb(50, 143, 38);}
-#tarjetaCarrusel-4{background-color: rgb(17, 15, 153);}
-#tarjetaCarrusel-5{background-color: rgb(83, 52, 168);}
-
-a{
-    text-decoration: none;
-}
-
-i{
+#first .container{
     color: white;
-}
-
-#contePuntos{
-    background-color: rgb(185,185,185);
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 10px;
 }
 
 
 /* ________________________________________________________________________________________ */
 
-#second .musicGenres{
+
+#third .musicGenres{
     display: flex;
     justify-content: center;
 }
 
-#second{
+#third{
     background-color: rgb(30,30,30);
     color: white;
     text-align: center;
 }
 
 
-#second .container{
- padding: 150px 12px;
+#third .container{
+ padding: 80px 12px;
 }
 
-#second h2{
+#third h2{
     margin-top: 0;
     font-size: 2.8em;
 }
 
-#second p{
+#third p{
     display: block;
     margin-bottom: 30px;
 }
 
-#second h3{
+#third h3{
     margin-top: 0;
+    margin-bottom: 70px;
 }
 
 
 
-#second .carta{
+#third .carta{
     background-position: center center;
     background-size: cover;
     padding: 15px;
-    margin: 20px;
+    margin: 15px 50px;
     border-radius: 15px;
-    width: 1000px ;
-    height: 300px;
+    width: 300px ;
+    height: 400px;
 
 
 
@@ -227,7 +212,7 @@ i{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    , url("../images/fondo-calle.png");
+    , url("../img/genres/rock.jpg");
 }
 
 
