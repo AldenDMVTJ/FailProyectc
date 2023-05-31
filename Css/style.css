@@ -16,9 +16,12 @@
  body{
      margin: 0;
      font-family: "roboto", sans-serif;
+     background-color: rgb(30,30,30);
  }
   
- 
+ span{
+    color: white;
+ }
  
  h1{ font-size: 3.5em;}
  h2{ font-size: 2.7em;}
@@ -53,7 +56,9 @@ button:hover{
 
 
 /* ______________________________________________________________________________________________ */
-
+.menu-icon{
+    display: none;
+}
 
 .header {
     background-color: rgb(0, 0, 0);
@@ -65,19 +70,16 @@ button:hover{
 
 } 
 
-header .container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
 .logo{
-    margin: 0;
+   
     font-weight: bold;
     color: blueviolet;
     font-size: 1.6em;
     letter-spacing: 2px;
 }
+
+
 
 .navigation ul{
     margin: 0;
@@ -104,11 +106,12 @@ header .container{
 
 
 
-.logo-nav.container{
+.logo-nav-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    flex-wrap: wrap;
+} 
 
 
 /* ____________________________________________________________________________________ */
@@ -129,6 +132,8 @@ header .container{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    width: 100%;
+    
     
 }
 
@@ -136,8 +141,28 @@ header .container{
     color: white;
 }
 
+/* ________________________________________________________________________________________ */
+
+#second .container{
+
+}
+
+#second .cartaSpotify1{
+ 
+}
+
+#second .cartaSpotify2{
+    
+}
+
+#second .cartaSpotify3{
+    
+}
+
 
 /* ________________________________________________________________________________________ */
+
+
 
 
 #third .musicGenres{
@@ -166,10 +191,10 @@ header .container{
     margin-bottom: 30px;
 }
 
-#third h3{
+/* #third h3{
     margin-top: 0;
     margin-bottom: 70px;
-}
+} */
 
 
 
@@ -249,3 +274,43 @@ footer .container{
 
 
 
+
+
+
+
+
+
+/* ________________________________________________________________________________________ */
+
+/* @media only screen and (max-width: 500px) {
+    
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+
+    .navigation{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .navigation ul {
+        display: none;
+    }
+    
+    .navigation ul .show {
+        display: none;
+    }
+
+    .navigation ul li{
+        display: block;
+    }
+    
+    .navigation ul li a{
+        display: block;
+        padding: 0.5rem 0rem;
+        transition: all 0.4 linear;
+        border-radius: 5px;
+    }
+
+} */
