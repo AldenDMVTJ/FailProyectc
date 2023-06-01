@@ -56,7 +56,7 @@ button:hover{
 
 
 /* ______________________________________________________________________________________________ */
-.menu-icon{
+.menu{
     display: none;
 }
 
@@ -282,9 +282,9 @@ footer .container{
 
 /* ________________________________________________________________________________________ */
 
-/* @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 535px) {
     
-    .menu-icon{
+    .menu{
         display: block;
         cursor: pointer;
     }
@@ -298,8 +298,8 @@ footer .container{
         display: none;
     }
     
-    .navigation ul .show {
-        display: none;
+    .navigation ul.show {
+        display: block;
     }
 
     .navigation ul li{
@@ -313,4 +313,4 @@ footer .container{
         border-radius: 5px;
     }
 
-} */
+}
