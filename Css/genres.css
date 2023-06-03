@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Varela+Round&display=swap');
 
 
 
@@ -58,6 +58,8 @@ button:hover{
 /* ______________________________________________________________________________________________ */
 .menu{
     display: none;
+    font-family: 'Caveat', cursive;
+    font-size: 1.7rem;
 }
 
 .header {
@@ -72,10 +74,10 @@ button:hover{
 
 
 .logo{
-   
+    font-family: 'Caveat', cursive;
     font-weight: bold;
     color: blueviolet;
-    font-size: 1.6em;
+    font-size: 1.9em;
     letter-spacing: 2px;
 }
 
@@ -94,9 +96,10 @@ button:hover{
     display: block;
     padding: 0.5rem 1rem;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.6rem;
     color: rgb(255, 255, 255);
     transition: all 1s linear;
+    font-family: 'Caveat', cursive;
 }
 
 
@@ -112,3 +115,77 @@ button:hover{
     align-items: center;
     flex-wrap: wrap;
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 535px) {
+    
+    .menu{
+        display: block;
+        cursor: pointer;
+    }
+
+    .navigation{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .navigation ul {
+        display: none;
+    }
+    
+    .navigation ul.show {
+        display: block;
+    }
+
+    .navigation ul li{
+        display: block;
+    }
+    
+    .navigation ul li a{
+        display: block;
+        padding: 0.5rem 0rem;
+        transition: all 0.4 linear;
+        border-radius: 5px;
+    }
+
+}

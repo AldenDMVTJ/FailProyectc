@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Varela+Round&display=swap');
 
 
 
@@ -58,11 +58,13 @@ button:hover{
 /* ______________________________________________________________________________________________ */
 .menu{
     display: none;
+    font-family: 'Caveat', cursive;
+    font-size: 1.7rem;
 }
 
 .header {
     background-color: rgba(0, 0, 0, 0.747);
-    padding: 2rem 0;
+    padding: 1.2rem 0;
     position: fixed;
     left: 0;
     top: 0;
@@ -73,9 +75,10 @@ button:hover{
 
 .logo{
    
+    font-family: 'Caveat', cursive;
     font-weight: bold;
     color: blueviolet;
-    font-size: 1.6em;
+    font-size: 1.9em;
     letter-spacing: 2px;
 }
 
@@ -94,9 +97,10 @@ button:hover{
     display: block;
     padding: 0.5rem 1rem;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.6rem;
     color: rgb(255, 255, 255);
     transition: all 1s linear;
+    font-family: 'Caveat', cursive;
 }
 
 
@@ -112,3 +116,109 @@ button:hover{
     align-items: center;
     flex-wrap: wrap;
 } 
+
+/* _____________________________________________________________________________ */
+
+#first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 30vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.3),
+        rgba(231, 55, 55, 0.3)
+    )
+    , url("../img/banner/banner2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;   
+}
+
+#first .container{
+    color: white;
+}
+
+#first h3{
+    font-size: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#first p{
+    font-family: 'Montserrat';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 535px) {
+    
+    .menu{
+        display: block;
+        cursor: pointer;
+    }
+
+    .navigation{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .navigation ul {
+        display: none;
+    }
+    
+    .navigation ul.show {
+        display: block;
+    }
+
+    .navigation ul li{
+        display: block;
+    }
+    
+    .navigation ul li a{
+        display: block;
+        padding: 0.5rem 0rem;
+        transition: all 0.4 linear;
+        border-radius: 5px;
+    }
+
+}

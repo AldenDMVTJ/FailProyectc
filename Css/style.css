@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
 *{
@@ -15,15 +16,12 @@
  
  body{
      margin: 0;
-     font-family: "roboto", sans-serif;
-     background-color: rgb(0, 0, 0);
+     background-color: #2a0333;
  }
   
- span{
-    color: white;
- }
  
- h1{ font-size: 3.5em;}
+ 
+ h1{ font-size: 2em;}
  h2{ font-size: 2.2em;}
  h3{ font-size:  1.2em;}
  p{ font-size: 1.25em;}
@@ -31,7 +29,7 @@
  li{ font-size: 1.25em;}
  a{ text-decoration: none;}
 
- button{
+ /* button{
     font-size: 1.5em;
     font-weight: bold;
     padding: 10px 30px;
@@ -45,7 +43,7 @@
 
 button:hover{
     background-color: rgb(101, 33, 165);
-}
+} */
 
 .container{
     width: 85%;
@@ -56,13 +54,20 @@ button:hover{
 
 
 /* ______________________________________________________________________________________________ */
+
+.header span{
+    color: white;
+}
 .menu{
     display: none;
+    font-family: 'Caveat', cursive;
+    font-size: 1.7rem;
 }
 
 .header {
+    
     background-color: rgba(0, 0, 0, 0.747);
-    padding: 2rem 0;
+    padding: 1.2rem 0;
     position: fixed;
     left: 0;
     top: 0;
@@ -72,10 +77,10 @@ button:hover{
 
 
 .logo{
-   
+    font-family: 'Caveat', cursive;
     font-weight: bold;
     color: blueviolet;
-    font-size: 1.6em;
+    font-size: 1.9em;
     letter-spacing: 2px;
 }
 
@@ -94,14 +99,15 @@ button:hover{
     display: block;
     padding: 0.5rem 1rem;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.6rem;
     color: rgb(255, 255, 255);
     transition: all 1s linear;
+    font-family: 'Caveat', cursive;
 }
 
 
 .navigation ul li a:hover{
-    color: rgb(75, 74, 165);
+    color: blueviolet;
 }
 
 
@@ -122,13 +128,13 @@ button:hover{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 45vh;
+    height: 55vh;
     background-image: linear-gradient(
         0deg,
         rgba(0, 0, 0, 0.3),
         rgba(231, 55, 55, 0.3)
     )
-    , url("../img/banner/banner.jpg");
+    , url("../img/banner/banner4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -141,18 +147,32 @@ button:hover{
     color: white;
 }
 
+#first h3{
+    font-size: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#first p{
+    font-family: 'Montserrat';
+}
+
 /* ________________________________________________________________________________________ */
+
+#second {
+    background-color: black;
+}
 
 
  #second .topSpotify{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 
 
 #second .container{
-    padding: 80px 12px;
+    padding: 100px 12px 40px 12px;
     width: 100%;
     max-width: 5000px;
     margin: 0px auto;
@@ -161,11 +181,14 @@ button:hover{
 
 #second p{
     color: white;
+    text-align: center;
+    margin-top: 0px;
 }
 
 #second h2{
     color: white;
     text-align: center;
+    margin-top: 0px;
 
 }
 
@@ -255,38 +278,33 @@ button:hover{
 #third .musicGenres{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 
 #third{
-    background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
 }
 
 
 #third .container{
- padding: 80px 12px;
+ padding: 20px 12px 80px 12px;
 }
 
 #third h2{
     margin-top: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(185, 182, 182);
 }
 
 #third p{
-    display: block;
-    margin-bottom: 30px;
-}
-
-#third h3{
     margin-top: 0;
-    margin-bottom: 70px;
-    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(185, 182, 182);
+    font-size: 1.7rem;
 }
 
-#third p{
-    color: white;
-}
 
 .verMas{
     margin-top: 30px;
@@ -294,20 +312,20 @@ button:hover{
 
 .verMas a{
     padding: 20px;
-    background-color: rgb(30, 30, 30);
-    color: blueviolet;
-    border-radius: 25px;
-
-
+    background-color: rgb(0, 0, 0);
+    color: rgb(116, 8, 108);
+    border-radius: 50px;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 #third .cartaGenre{
     background-position: center center;
     background-size: cover;
     padding: 15px;
-    margin: 15px 50px;
+    margin: 25px 30px;
     border-radius: 15px;
-    width: 300px ;
+    width: 230px ;
     height: 400px;
 }
 
@@ -342,6 +360,25 @@ button:hover{
     , url("../img/genres/rock.jpg");
 }
 
+.musicGenres .cartaGenre:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    , url("../img/genres/jazz.jpg");
+}
+
+.musicGenres .cartaGenre:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    , url("../img/genres/reggaeton.jpg");
+}
+
+
 
 
 
@@ -358,7 +395,7 @@ button:hover{
 
 /* _____________________________________________________________________________________________ */
 footer{
-    background-color: rgb(30,30,30);
+    background-color: rgb(0, 0, 0);
 }
 
 footer p {

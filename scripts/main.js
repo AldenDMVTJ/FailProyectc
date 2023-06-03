@@ -1,13 +1,14 @@
 const menubtn = document.getElementById('menu-icon')
-const menuDes = document.querySelector('#menuDesplegable')
+const menu = document.querySelector('#menuDesplegable')
 
 menubtn.addEventListener('click' , ()=> {
-
-    if( menuDes.classList.contains('show') == true ){
-        menuDes.classList.remove('show')
+    //si la lista tiene la clase 'show' se la remueve
+    // y si no la tiene se le agrega
+    if( menu.classList.contains('show') == true ){
+        menu.classList.remove('show')
     }
     else{
-        menuDes.classList.add('show')
+        menu.classList.add('show')
     }
 })
 
