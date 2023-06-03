@@ -34,8 +34,8 @@
     font-weight: bold;
     padding: 10px 30px;
     border-radius: 10px;
-    border: 2px solid rgba(0,0,0,0.5);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
     color: white;
     background-color: blueviolet;
 }
@@ -97,7 +97,7 @@ button:hover{
 
 .navigation ul li a{
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 1rem;
     font-weight: bold;
     font-size: 1.6rem;
     color: rgb(255, 255, 255);
@@ -213,8 +213,8 @@ button:hover{
 .cartaSpotify1  {
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
     )
     , url("../img/spotify/thwknd.jpg");
     width: 350px ;
@@ -224,8 +224,8 @@ button:hover{
 .cartaSpotify2  {
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
     )
     , url("../img/spotify/sheeran.jpg");
     width: 260px ;
@@ -236,8 +236,8 @@ button:hover{
 .cartaSpotify3  {
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
     )
     , url("../img/spotify/swiftt.jpg");
     width: 260px ;
@@ -248,8 +248,8 @@ button:hover{
 .cartaSpotify4  {
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
     )
     , url("../img/spotify/cyrus.jpg");
     width: 200px ;
@@ -260,8 +260,8 @@ button:hover{
 .cartaSpotify5  {
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
     )
     , url("../img/spotify/rihanna.jpeg");
     width: 200px ;
@@ -289,8 +289,14 @@ button:hover{
 
 
 #third .container{
- padding: 20px 12px 80px 12px;
+    padding: 20px 12px 80px 12px;
+    width: 100%;
+    max-width: 3000px;
+    margin: 0px auto;
 }
+
+
+
 
 #third h2{
     margin-top: 0;
@@ -334,8 +340,8 @@ button:hover{
 .musicGenres .cartaGenre:first-child{
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
     )
     , url("../img/genres/cumbia.jpg");
     
@@ -344,8 +350,8 @@ button:hover{
 .musicGenres .cartaGenre:nth-child(2){
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
     )
     , url("../img/genres/pop.jpg");
 }
@@ -354,8 +360,8 @@ button:hover{
 .musicGenres .cartaGenre:nth-child(3){
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
     )
     , url("../img/genres/rock.jpg");
 }
@@ -363,8 +369,8 @@ button:hover{
 .musicGenres .cartaGenre:nth-child(4){
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
     )
     , url("../img/genres/jazz.jpg");
 }
@@ -372,8 +378,8 @@ button:hover{
 .musicGenres .cartaGenre:nth-child(5){
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
     )
     , url("../img/genres/reggaeton.jpg");
 }
@@ -447,7 +453,7 @@ footer .container{
     
     .navigation ul li a{
         display: block;
-        padding: 0.5rem 0rem;
+        padding: 0.3rem 0rem;
         transition: all 0.4 linear;
         border-radius: 5px;
     }
