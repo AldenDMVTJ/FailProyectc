@@ -64,7 +64,7 @@ button:hover{
 
 .header {
     background-color: rgba(0, 0, 0, 0.747);
-    padding: 2rem 0;
+    padding: 1.2rem 0;
     position: fixed;
     left: 0;
     top: 0;
@@ -95,7 +95,7 @@ button:hover{
 
 .navigation ul li a{
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 1rem;
     font-weight: bold;
     font-size: 1.6rem;
     color: rgb(255, 255, 255);
