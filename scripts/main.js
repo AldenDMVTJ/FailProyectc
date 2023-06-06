@@ -14,20 +14,33 @@ menubtn.addEventListener('click' , ()=> {
 
 
 
-// const fora = document.getElementById('form')
-// fora.addEventListener('submit', validarFormulario)
-const form = "hola"
 
-function asdsad (e){
-    // e.preventDefaylt();
 
-    // let nombre = document.getElementById("nombre").value
-    // let mensaje = document.getElementById("mensaje").value
+function comentario(){
+    const nombre = document.getElementById("nombre").value;
+    const mensaje = document.getElementById("mensaje").value;
 
-    let hola = form
-    console.log(hola);
+    if(nombre == "" && mensaje == ""){
+
+        alert("Es necesario que ingrese un nombre y un comentario")
+        document.getElementById("nombre").focus();
+    }
+
+    else if(nombre == ""){
+
+        alert("Es necesario que ingrese un nombre")
+        document.getElementById("nombre").focus();
+    }
+
+    else if(mensaje == ""){
+
+        alert("Es necesario que ingrese un comentario")
+        document.getElementById("mensaje").focus();
+    }
+    
+    else{
+
+        console.log("su nombre es " + nombre + "y su comentario es " + mensaje);
+
+    }
 }
-
-asdsad()
-
-console.log("adios");
