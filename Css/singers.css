@@ -29,21 +29,7 @@
     color: white;
     }
 
- button{
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 10px 30px;
-    border-radius: 10px;
-    border: 2px solid rgba(0,0,0,0.5);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-    color: white;
-    background-color: blueviolet;
-}
 
-
-button:hover{
-    background-color: rgb(101, 33, 165);
-}
 
 .container{
     width: 85%;
@@ -256,6 +242,8 @@ span{
 
 #fourth{
     background-color: #595072;
+    display: flex;
+    justify-content: center;
  }
 
 
@@ -264,21 +252,111 @@ span{
 }
 
 #fourth .container{
-    padding: 0px 12px 0px 12px;
+    padding: 0px 20px 20px 20px;
     width: 95%;
-    height: 300px;
-    max-width: 3000px;
-    margin: 0px auto;
-    display: flex;
+    height: auto;
+    max-width: 750px;
+    margin: 30px;
+    background-color:#3e297a;
+    border-radius: 15px;
+    
 } 
 
+#fourth form{
+    background-color:#595072;
+    padding: 25px 35px 35px 35px;
+    border-radius: 10px;
+
+}
+
+
+#fourth h2{
+    margin: 10px 5px 5px 0px;
+    padding: 5px 0px 20px 0px;
+    font-size: 1.7rem;
+    color: #b1abab;
+}
 
 
 
+#fourth .nombreComent{
+    height: 40px;
+    width: 100%;
+    background-color: #595072;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    padding-left: 10px;
+    margin: 10px 0px 10px 0px;
+}
+#fourth .mensajeComent{
+    height: 60px;
+    width: 100%;
+    background-color: #595072;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    padding-left: 10px;
+    margin: 10px 0px 10px 0px;
+    
+}
 
+#fourth button{
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid rgba(0,0,0,0.5);
+    color: #b1abab;
+    background-color: #3e297a;
+}
+
+#fourth .coment{
+    height: auto;
+    background-color: #595072;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+#coments .border{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#coments h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.3rem;
+    padding: 10px;
+
+}
+#coments p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 10px;
+    margin-top: 0px;
+
+}
 /* _________________________________________________________________________________ */
 
 
+footer{
+    background-color: rgb(0, 0, 0);
+}
+
+footer p {
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end ;
+}
 
 
 

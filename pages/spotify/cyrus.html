@@ -84,17 +84,30 @@
 
     <section id="fourth">
         <div class="container">
+            <h2>Aqui puedes enviar un comentario </h2>
             <form action="">
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre" placeholder="Ingrese aquí su nombre" size="35">
+                <input class="nombreComent" type="text" name="nombre" autocomplete="off" id="nombre" placeholder="Ingrese aquí su nombre" >
                 <br>
-                <label for="mensaje">Comentario</label>
-                <input type="text" name="mensaje" id="mensaje" placeholder="Agrega un comentario" size="40">
+                <input class="mensajeComent" type="text" name="mensaje" autocomplete="off" id="mensaje" placeholder="Agrega un comentario" size="100">
                 <br>
-                <button type="button" onclick="comentario()">Comentar</button>
+                <button type="button" onclick="comentarioCaja()">Comentar</button>
             </form>
+            <div class="coment">
+                <h2>Comentarios</h2>
+                <div id="coments">
+                    
+                </div>
+            </div>
         </div>
     </section>
+
+    <footer id="footer">
+        <div class="container">
+            <p>
+                &copy; nnnnnnn 2023  
+            </p>
+        </div>
+    </footer>
 
     <script src="../../scripts/main.js"></script>
 </body>
