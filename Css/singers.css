@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Varela+Round&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
 *{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -15,13 +14,10 @@
  
  body{
      margin: 0;
-     font-family: "roboto", sans-serif;
-     background-color: rgb(0, 0, 0);
+     background-color: #595072;
  }
   
- span{
-    color: white;
- }
+
  
  h1{ font-size: 3.5em;}
  h2{ font-size: 2.2em;}
@@ -29,7 +25,9 @@
  p{ font-size: 1.25em;}
  ul{ list-style: none;}
  li{ font-size: 1.25em;}
- a{ text-decoration: none;}
+ a{ text-decoration: none;
+    color: white;
+    }
 
  button{
     font-size: 1.5em;
@@ -56,7 +54,13 @@ button:hover{
 
 
 /* ______________________________________________________________________________________________ */
+
+span{
+    color: white;
+ }
+
 .menu{
+
     display: none;
     font-family: 'Caveat', cursive;
     font-size: 1.7rem;
@@ -79,7 +83,6 @@ button:hover{
     color: blueviolet;
     font-size: 1.9em;
     letter-spacing: 2px;
-
 }
 
 
@@ -118,9 +121,168 @@ button:hover{
 } 
 
 
+/* _________________________________________________________________________________ */
+
+#first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 20vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(231, 55, 55, 0.5)
+    )
+    , url("../img/banner/banner9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;   
+}
+
+#first .container{
+    color: white;
+}
+
+#first h1{
+    font-family: 'Geologica', sans-serif;
+}
+
+
+/* _________________________________________________________________________________ */
+
+#second{
+    background-color: #3e297a;
+ }
+
+
+ #second .container img{
+    width: 230px;
+    height: 240px;
+    border-radius: 15px;
+    margin: 30px 30px 30px 30px;
+}
+
+
+ #second .texto{
+    margin: 30px 30px 30px 30px;
+}
+
+#second .container{
+    padding: 40px 12px 0px 12px;
+    width: 95%;
+    max-width: 1500px;
+    margin: 0px auto;
+    display: flex;
+} 
+
+#second p{
+    color: white;
+    margin-top: 0px;
+    font-family: 'Mukta', sans-serif;        
+    font-size: 1.4rem;
+}
+
+#second h2{
+    color: white;
+    margin-top: 0px;
+    font-family: 'Mukta', sans-serif;
+}
+
+
+/* _________________________________________________________________________________ */
+
+#third{
+    background-color: #3e297a;
+ }
+
+
+ #third .container img{
+    width: 260px;
+    height: 270px;
+    border-radius: 15px;
+    margin: 30px 30px 0px 30px;
+}
+
+
+ #third .texto{
+    margin: 30px 30px 0px 30px;
+    
+}
+
+#third .container{
+    padding: 0px 12px 0px 12px;
+    width: 95%;
+    max-width: 1500px;
+    margin: 0px auto;
+    display: flex;
+} 
+
+#third .texto p{
+    color: white;
+    margin-top: 0px;       
+    font-size: 1.4rem;
+    font-family: 'Mukta', sans-serif; 
+}
+
+#third .texto h2{
+    color: white;
+    margin-top: 0px;
+    font-family: 'Mukta', sans-serif; 
+}
+#third .texto a{
+    color: rgb(194, 188, 188);
+    margin-top: 0px;
+    font-family: 'Mukta', sans-serif; 
+}
+
+#third .listSinger {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#third .listSinger li{
+    width: 25rem;
+}
+
+#third .container .titulolist {
+    font-size: 1.6rem;
+}
+
+
+/* _________________________________________________________________________________ */
+
+#fourth{
+    background-color: #595072;
+ }
+
+
+ #fourth .texto{
+    margin: 30px 30px 0px 30px;
+}
+
+#fourth .container{
+    padding: 0px 12px 0px 12px;
+    width: 95%;
+    height: 300px;
+    max-width: 3000px;
+    margin: 0px auto;
+    display: flex;
+} 
 
 
 
+
+
+/* _________________________________________________________________________________ */
+
+
+
+
+
+/* _________________________________________________________________________________ */
 
 
 

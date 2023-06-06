@@ -20,7 +20,8 @@
      margin: 0;
      font-family: "roboto", sans-serif;
      background-color: rgb(0, 0, 0);
- }
+}
+
   
  span{
     color: white;
@@ -134,7 +135,7 @@ button:hover{
         rgba(0, 0, 0, 0.3),
         rgba(231, 55, 55, 0.3)
     )
-    , url("../img/banner/banner2.webp");
+    , url("../img/banner/banner8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -153,14 +154,6 @@ button:hover{
 /* ________________________________________________________________________________ */
 
 
-
-
-
-
-
-
-
-/* __________________________________________________________________________________ */
 #second{
     color: white;
 }
