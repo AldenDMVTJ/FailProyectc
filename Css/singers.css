@@ -149,6 +149,7 @@ span{
     height: 240px;
     border-radius: 15px;
     margin: 30px 30px 30px 30px;
+    background-size: cover;
 }
 
 
