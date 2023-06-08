@@ -400,27 +400,84 @@
 
 /* _____________________________________________________________________________________________ */
 footer{
-    background-color: rgb(0, 0, 0);
+    background-color: #201f1f;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: white;
 }
 
-footer p {
-    margin: 0;
-    padding: 12px;
-    color: rgb(100,100,100);
-}
 
-footer .container{
-    height: 150px;
+
+footer .footer-container{
     display: flex;
     justify-content: center;
-    align-items: flex-end ;
+    align-items: center ;
+    flex-direction: column;
+    text-align: center;
+}
+
+ footer .footer-container h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    margin: 0px 0px 15px 0px;
+ }
+
+footer .footer-container p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+footer .socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    padding: 0px 10px 0px 10px;
 }
 
 
 
+footer .socials li{
+    margin: 0 10px;
+}
 
 
+footer .socials a{
+    color: white;
+}
 
+footer .socials a i{
+    font-size: 1.7rem;
+    transition: color .4s ease;
+}
+
+footer .socials a:hover i{
+    color: aqua;
+}
+
+footer .footer-bottom{
+    background-color: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+footer .footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
 
 
 
